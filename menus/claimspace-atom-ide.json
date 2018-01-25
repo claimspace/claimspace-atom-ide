@@ -1,0 +1,29 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle claimspace-atom-ide",
+        "command": "claimspace-atom-ide:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Claimspace Cloud",
+      "submenu": [
+        {
+          "label": "My Account",
+          "command": "claimspace-atom-ide:show-login-modal"
+        },
+        {
+          "label": "Open Project",
+          "command": "claimspace-atom-ide:show-open-project-modal"
+        },
+        {
+          "label": "Enable IDE",
+          "command": "claimspace-atom-ide:toggle"
+        }
+      ]
+    }
+  ]
+}
