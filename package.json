@@ -23,6 +23,6 @@
     "opn": "5.2.0"
   },
   "package-dependencies": {
-    "language-claim": "latest"
+    "language-claim": "0.1.0"
   }
 }
