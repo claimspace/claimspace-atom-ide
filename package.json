@@ -5,17 +5,24 @@
   "description": "The Claimspace Cloud IDE",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": ["claimspace-atom-ide:toggle", "claimspace-atom-ide:toggle-native"]
+    "atom-workspace": [
+      "claimspace-atom-ide:toggle",
+      "claimspace-atom-ide:toggle-native"
+    ]
   },
-  "repository": "https://github.com/atom/claimspace-atom-ide",
+  "repository": "https://github.com/claimspace/claimspace-atom-ide",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "atom-package-dependencies": "latest",
     "js-yaml": "3.10.0",
     "hogan.js": "3.0.2",
     "dugite": "1.49.0",
     "opn": "5.2.0"
+  },
+  "package-dependencies": {
+    "language-claim": "latest"
   }
 }
