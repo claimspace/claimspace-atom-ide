@@ -16,4 +16,4 @@ git push
 
 echo "Performing apm publish "
 
-apm "$@"
+apm publish "$@"
