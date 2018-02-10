@@ -22,7 +22,7 @@
     "dugite": "1.49.0",
     "opn": "5.2.0"
   },
-  "package-dependencies": {
-    "language-claim": "0.1.2"
+  "packageDependencies": {
+    "language-claim": "0.1.3"
   }
 }
