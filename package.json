@@ -16,13 +16,9 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "atom-package-dependencies": "latest",
     "js-yaml": "3.10.0",
     "hogan.js": "3.0.2",
     "dugite": "1.49.0",
     "opn": "5.2.0"
-  },
-  "packageDependencies": {
-    "language-claim": "0.1.13"
   }
 }
