@@ -79,7 +79,7 @@ patterns: [
   # Tmp Masks
   {
     name: 'keyword.other.claim'
-    match: '\\b(module|mod|example|ex|train|compose|example|define|proof|theorem)\\b'
+    match: '\\b(module|mod|example|ex|train|compose|example|define|def|proof|theorem|seq|set|list|coll)\\b'
   }
 
   # ... ?
