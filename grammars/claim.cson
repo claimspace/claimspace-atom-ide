@@ -31,14 +31,14 @@ patterns: [
 
   # Spaces
   {
-    match: '\\b(space|import|as|alias|mean|let)\\b'
+    match: '\\b(space|import|as|alias|mean|let|in)\\b'
     name: 'keyword.other.claim'
   }
 
   # Models
   {
     name: 'keyword.other.claim'
-    match: '\\b(model|extend|apply|include|insert)\\b'
+    match: '\\b(model|extend|apply|include|insert|describe)\\b'
   }
 
   # Primitives
@@ -74,6 +74,12 @@ patterns: [
   {
     name: 'keyword.other.claim'
     match: '\\b(concept|algorithm|datastruct)\\b'
+  }
+
+  # Tmp Masks
+  {
+    name: 'keyword.other.claim'
+    match: '\\b(module|mod|example|ex|train|compose|example|define|proof|theorem)\\b'
   }
 
   # ... ?
