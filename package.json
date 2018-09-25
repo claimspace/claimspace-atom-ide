@@ -1,7 +1,7 @@
 {
   "name": "claimspace-atom-ide",
   "main": "./lib/claimspace-atom-ide",
-  "version": "0.2.30",
+  "version": "0.2.31",
   "description": "The Claimspace Cloud IDE",
   "keywords": [],
   "activationCommands": {
