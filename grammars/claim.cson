@@ -38,7 +38,7 @@ patterns: [
   # Models
   {
     name: 'keyword.other.claim'
-    match: '\\b(model|extend|apply|include|insert|describe)\\b'
+    match: '\\b(model|extend|apply|include|insert|describe|embed)\\b'
   }
 
   # Primitives
@@ -57,6 +57,12 @@ patterns: [
   {
     name: 'keyword.other.claim'
     match: '\\b(path)\\b'
+  }
+
+  # Subjects
+  {
+    name: 'keyword.other.claim'
+    match: '\\b(object|subject|image)\\b'
   }
 
   # Objects
