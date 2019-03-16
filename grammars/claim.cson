@@ -44,7 +44,7 @@ patterns: [
   # Primitives
   {
     name: 'keyword.other.claim'
-    match: '\\b(term|claim|text)\\b'
+    match: '\\b(story|claim|text)\\b'
   }
 
   # Asserts
