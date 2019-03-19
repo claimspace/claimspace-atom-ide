@@ -56,7 +56,7 @@ patterns: [
   # Paths
   {
     name: 'keyword.other.claim'
-    match: '\\b(path)\\b'
+    match: '\\b(path|step)\\b'
   }
 
   # Subjects
