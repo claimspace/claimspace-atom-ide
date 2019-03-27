@@ -74,7 +74,7 @@ patterns: [
   # Masks
   {
     name: 'keyword.other.claim'
-    match: '\\b(book|article|essay|letter|person|paper)\\b'
+    match: '\\b(book|article|essay|letter|person|paper|booksec|report)\\b'
   }
 
   {
